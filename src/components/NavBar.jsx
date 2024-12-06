@@ -10,7 +10,8 @@ const NavBar = ({ user, onLogout }) => {
       <Link className="underline p-2" to="/services">
         Services
       </Link>
-      <Link className="underline p-2" to="/professional">
+      <Link className="underline p-2" to="/add-service">Add service</Link>
+      <Link  className="underline p-2" to="/professional">
         Professional
       </Link>
       {user ? (

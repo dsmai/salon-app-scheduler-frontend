@@ -6,6 +6,7 @@ const Login = ({ onLogin }) => {
     username: "",
     password: "",
   });
+
   const navigate = useNavigate();
 
   const handleFormChange = (e) => {
@@ -20,7 +21,7 @@ const Login = ({ onLogin }) => {
         username: "",
         password: "",
       });
-    navigate("/");
+    navigate("/services");
   };
 
   return (
